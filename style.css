@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Josefin Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+#bg-image {
+  position: absolute;
+  top: -0.8rem;
+  width: 100%;
+  z-index: -1;
+}
+
+main {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 6.5rem;
+}
+
+/* Title Section */
+.title-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h1 {
+  color: whitesmoke;
+  letter-spacing: 1.5rem;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+#moon-icon {
+  filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.3));
+}
+
+/* Todo section */
+.todo-container {
+  background-color: whitesmoke;
+  border: 0px solid;
+  border-radius: 4px;
+
+  display: flex;
+  flex-direction: column;
+}
+.new-todo {
+  margin-top: 5rem;
+}
+.ex-todo {
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
+  margin-top: 2.5rem;
+}
+
+.todo-item {
+  font-size: 2.5rem;
+  padding: 2rem 2rem;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
